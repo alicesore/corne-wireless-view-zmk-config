@@ -147,6 +147,7 @@
         };
 
         sym_layer {
+            // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
             // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
             // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
@@ -154,10 +155,10 @@
 
             display-name = "Sym";
             bindings = <
-&kp LEFT_ALT    &none          &none         &none      &none           &none    &redo         &paste         &copy          &cut          &undo      &kp ESCAPE
-&kp LEFT_SHIFT  &kp LEFT_META  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &none    &kp CAPSLOCK  &kp LEFT       &kp DOWN       &kp UP_ARROW  &kp RIGHT  &kp LEFT_META
-&kp LCTRL       &none          &none         &none      &none           &none    &kp INSERT    &kp HOME       &kp PAGE_DOWN  &kp PAGE_UP   &kp END    &kp RETURN
-                                             &none      &none           &none    &kp RET       &kp BACKSPACE  &kp DELETE
+&kp LEFT_ALT    &kp LEFT_BRACKET  &kp N7        &kp N8        &kp N9        &kp RIGHT_BRACKET    &none  &none           &none      &none         &none          &kp ESCAPE
+&kp LEFT_SHIFT  &kp SEMICOLON     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp EQUAL            &none  &kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_META  &kp LEFT_META
+&kp LCTRL       &kp GRAVE         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH        &none  &none           &none      &none         &none          &kp RETURN
+                                                &kp PERIOD    &kp N0        &kp MINUS            &none  &none           &none
             >;
         };
 
@@ -170,10 +171,10 @@
 
             display-name = "Fun";
             bindings = <
-&kp LEFT_ALT    &none          &none         &none      &none           &none    &redo         &paste         &copy          &cut          &undo      &kp ESCAPE
-&kp LEFT_SHIFT  &kp LEFT_META  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &none    &kp CAPSLOCK  &kp LEFT       &kp DOWN       &kp UP_ARROW  &kp RIGHT  &kp LEFT_META
-&kp LCTRL       &none          &none         &none      &none           &none    &kp INSERT    &kp HOME       &kp PAGE_DOWN  &kp PAGE_UP   &kp END    &kp RETURN
-                                             &none      &none           &none    &kp RET       &kp BACKSPACE  &kp DELETE
+&kp LEFT_ALT    &kp LEFT_BRACKET  &kp N7        &kp N8        &kp N9        &kp RIGHT_BRACKET    &none  &none           &none      &none         &none          &kp ESCAPE
+&kp LEFT_SHIFT  &kp SEMICOLON     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp EQUAL            &none  &kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_META  &kp LEFT_META
+&kp LCTRL       &kp GRAVE         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH        &none  &none           &none      &none         &none          &kp RETURN
+                                                &kp PERIOD    &kp N0        &kp MINUS            &none  &none           &none
             >;
         };
     };

@@ -26,7 +26,7 @@
                   &kp LGUI &mo 1 &kp SPACE   &kp RET &mo 2 &kp RALT
                         >;
                 };
-                lower_layer {
+                nav_layer {
 // -----------------------------------------------------------------------------------------
 // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
 // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
@@ -41,7 +41,7 @@
                         >;
                 };
 
-                raise_layer {
+                mouse_layer {
 // -----------------------------------------------------------------------------------------
 // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
 // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
@@ -56,23 +56,23 @@
                         >;
                 };
 
-                extra_1 {
+                button_layer {
                         status = "reserved";
                 };
 
-                extra_2 {
+                media_layer {
                         status = "reserved";
                 };
 
-                extra_3 {
+                num_layer {
                         status = "reserved";
                 };
 
-                extra_4 {
+                sym_layer {
                         status = "reserved";
                 };
 
-                extra_5 {
+                fun_layer {
                         status = "reserved";
                 };
         };
